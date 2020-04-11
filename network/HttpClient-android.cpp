@@ -42,7 +42,7 @@
 #include "base/ccUTF8.h"
 
 #ifndef JCLS_HTTPCLIENT
-#define JCLS_HTTPCLIENT  "org/cocos2dx/lib/Cocos2dxHttpURLConnection"
+#define JCLS_HTTPCLIENT  "com/douyu/module/gamerevenue/Cocos2dxHttpURLConnection"
 #endif
 
 NS_CC_BEGIN

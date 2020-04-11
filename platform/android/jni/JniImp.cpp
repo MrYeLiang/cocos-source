@@ -41,36 +41,36 @@
 #define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG,JNI_IMP_LOG_TAG,__VA_ARGS__)
 
 #ifndef ORG_RENDER_CLASS_NAME
-#define ORG_RENDER_CLASS_NAME org_cocos2dx_lib_Cocos2dxRenderer
+#define ORG_RENDER_CLASS_NAME com_douyu_module_gamerevenue_Cocos2dxRenderer
 #endif
 #define JNI_RENDER(FUNC) JNI_METHOD1(ORG_RENDER_CLASS_NAME,FUNC)
 
 #ifndef ORG_ACTIVITY_CLASS_NAME
-#define ORG_ACTIVITY_CLASS_NAME org_cocos2dx_lib_Cocos2dxActivity
+#define ORG_ACTIVITY_CLASS_NAME com_douyu_module_gamerevenue_Cocos2dxActivity
 #endif
 #define JNI_ACTIVITY(FUNC) JNI_METHOD1(ORG_ACTIVITY_CLASS_NAME,FUNC)
 
 #ifndef ORG_ACCELEROMETER_CLASS_NAME
-#define ORG_ACCELEROMETER_CLASS_NAME org_cocos2dx_lib_Cocos2dxAccelerometer
+#define ORG_ACCELEROMETER_CLASS_NAME com_douyu_module_gamerevenue_Cocos2dxAccelerometer
 #endif
 #define JNI_ACCELEROMETER(FUNC) JNI_METHOD1(ORG_ACCELEROMETER_CLASS_NAME,FUNC)
 
 #ifndef ORG_HELPER_CLASS_NAME
-#define ORG_HELPER_CLASS_NAME org_cocos2dx_lib_Cocos2dxHelper
+#define ORG_HELPER_CLASS_NAME com_douyu_module_gamerevenue_Cocos2dxHelper
 #endif
 #define JNI_HELPER(FUNC) JNI_METHOD1(ORG_HELPER_CLASS_NAME,FUNC)
 
 #ifndef ORG_AUDIOFOCUS_CLASS_NAME
-#define ORG_AUDIOFOCUS_CLASS_NAME org_cocos2dx_lib_Cocos2dxAudioFocusManager
+#define ORG_AUDIOFOCUS_CLASS_NAME com_douyu_module_gamerevenue_Cocos2dxAudioFocusManager
 #endif
 #define JNI_AUDIO(FUNC) JNI_METHOD1(ORG_AUDIOFOCUS_CLASS_NAME,FUNC)
 
 #ifndef JCLS_HELPER
-#define JCLS_HELPER "org/cocos2dx/lib/Cocos2dxHelper"
+#define JCLS_HELPER "com/douyu/module/gamerevenue/Cocos2dxHelper"
 #endif
 
 #ifndef JCLS_RENDERER
-#define JCLS_RENDERER "org/cocos2dx/lib/Cocos2dxRenderer"
+#define JCLS_RENDERER "com/douyu/module/gamerevenue/Cocos2dxRenderer"
 #endif
 
 

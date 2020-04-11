@@ -28,11 +28,11 @@
 #include "cocos/scripting/js-bindings/manual/jsb_global.h"
 
 #ifndef JCLS_EDITBOX
-#define JCLS_EDITBOX  "org/cocos2dx/lib/Cocos2dxEditBox"
+#define JCLS_EDITBOX  "com/douyu/module/gamerevenue/Cocos2dxEditBox"
 #endif
 
 #ifndef ORG_EDITBOX_CLASS_NAME
-#define ORG_EDITBOX_CLASS_NAME org_cocos2dx_lib_Cocos2dxEditBox
+#define ORG_EDITBOX_CLASS_NAME com_douyu_module_gamerevenue_Cocos2dxEditBox
 #endif
 #define JNI_EDITBOX(FUNC) JNI_METHOD1(ORG_EDITBOX_CLASS_NAME,FUNC)
 

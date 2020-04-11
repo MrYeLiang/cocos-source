@@ -38,7 +38,7 @@ THE SOFTWARE.
 #include "platform/CCApplication.h"
 
 #ifndef JCLS_HELPER
-#define JCLS_HELPER "org/cocos2dx/lib/Cocos2dxHelper"
+#define JCLS_HELPER "com/douyu/module/gamerevenue/Cocos2dxHelper"
 #endif
 
 NS_CC_BEGIN

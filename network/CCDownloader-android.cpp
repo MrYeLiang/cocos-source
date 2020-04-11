@@ -32,13 +32,13 @@
 #include <mutex>
 
 #ifndef JCLS_DOWNLOADER
-#define JCLS_DOWNLOADER "org/cocos2dx/lib/Cocos2dxDownloader"
+#define JCLS_DOWNLOADER "com/douyu/module/gamerevenue/Cocos2dxDownloader"
 #endif
 #define JARG_STR        "Ljava/lang/String;"
 #define JARG_DOWNLOADER "L" JCLS_DOWNLOADER ";"
 
 #ifndef ORG_DOWNLOADER_CLASS_NAME
-#define ORG_DOWNLOADER_CLASS_NAME org_cocos2dx_lib_Cocos2dxDownloader
+#define ORG_DOWNLOADER_CLASS_NAME com_douyu_module_gamerevenue_Cocos2dxDownloader
 #endif
 #define JNI_DOWNLOADER(FUNC) JNI_METHOD1(ORG_DOWNLOADER_CLASS_NAME,FUNC)
 

@@ -26,7 +26,7 @@ THE SOFTWARE.
 #include "platform/android/jni/JniHelper.h"
 
 #ifndef JCLS_HELPER
-#define JCLS_HELPER "org/cocos2dx/lib/Cocos2dxHelper"
+#define JCLS_HELPER "com/douyu/module/gamerevenue/Cocos2dxHelper"
 #endif
 
 namespace cocos2d {

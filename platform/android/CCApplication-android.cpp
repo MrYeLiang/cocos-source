@@ -65,7 +65,7 @@ void Application::updateViewSize(int width, int height)
 }
 
 extern "C" {
-    void Java_org_cocos2dx_lib_Cocos2dxGLSurfaceView_nativeOnSizeChanged(JNIEnv * env, jobject obj, jint width, jint height) {
+    void Java_com_douyu_module_gamerevenue_Cocos2dxGLSurfaceView_nativeOnSizeChanged(JNIEnv * env, jobject obj, jint width, jint height) {
         auto inst = Application::getInstance();
         // nativeOnSizeChanged is firstly called before Application initiating.
         if (inst != nullptr) {
